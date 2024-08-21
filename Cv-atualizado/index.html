@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Meu CV</title>
+    <style>
+        body {
+            overflow: auto;
+        }
+        .background {
+            background-color: #efbcd3;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: #efbcd3; /* Novo fundo sólido */
+            color: white; /* Cor do texto do cabeçalho */
+        }
+        
+        .cabecalho-link li {
+            display: inline;
+            margin: 0 10px;
+        }
+        .cabecalho-link a {
+            color: white; /* Cor dos links do cabeçalho */
+            text-decoration: none;
+        }
+        .cabecalho-link .btn {
+            background-color: #9e2f7f; /* Cor do botão do cabeçalho */
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+        }
+        .cabecalho-link .btn:hover {
+            background-color: #7e1f60; /* Cor do botão ao passar o mouse */
+        }
+        .background-color-sobre {
+            background-color: #fcd3ff;
+            padding: 2rem 0;
+        }
+        .container-idiomas {
+            background-color: #fcd3ff;
+            padding: 2rem 0;
+        }
+       
+        .main-sobre {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .text-sobre {
+            max-width: 500px;
+            margin: 20px;
+        }
+        .container-servicos {
+            background-color:  #efbcd3; /* Cor de fundo sólido para a seção de habilidades */
+            padding: 2rem 0;
+        }
+        .card {
+            margin: 20px;
+            padding: 1rem;
+            border: 1px solid #ca1986;
+            border-radius: 0.25rem;
+        }
+        .card p {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f0b1db;
+            color: rgb(195, 32, 179);
+        }
+
+       
+    </style>
+</head>
+<body>
+    <div class="background">
+        <header class="container d-flex justify-content-center">
+            
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-mim">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#idiomas">Idiomas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </header>
+    </div><!-- background -->
+
+    <section id="sobre-mim" class="background-color-sobre">
+        <div class="container main-sobre">
+          
+            <div class="text-sobre">
+                <h2>Sobre-Mim</h2>
+                <h5>Finalista do curso de Engenharia Informática</h5>
+                <p>Sou Estudante no Instituto Superior de Ciencias e Tecnologias De Mocambique. Gosto de programar, tenho como objectivo adquirir experiencia pratica em desenvolvimento de software, analise de sistemas, Segurança cibernetica entre outras areas.</p>
+            </div><!-- text-sobre -->
+        </div><!-- main-sobre -->
+    </section><!-- background-color-sobre -->
+
+    <div id="habilidades" class="container-servicos">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Habilidades</h2>
+            </div><!-- title -->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        
+                        <p>Tenho domínio das seguintes linguagens de Programação:<br>- JavaScript<br>- HTML<br>- CSS<br>- Python</p>
+                    </div><!-- card -->
+                </div><!-- col-md-4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                       
+                        <p>- Desenvolvimento de Software<br>- Design de interface do usuário (UI)<br>- Segurança cibernética: Conceitos básicos e boas práticas de segurança<br>- Figma</p>
+                    </div><!-- card -->
+                </div><!-- col-md-4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        
+                        <p>- Comunicação eficaz<br>- Trabalho em equipe<br>- Pensamento Criativo<br>- Adaptabilidade</p>
+                    </div><!-- card -->
+                </div><!-- col-md-4 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- container-servicos -->
+
+    <div id="idiomas" class="container-idiomas">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Idiomas</h2>
+            </div><!-- title -->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <p><strong>Português:</strong> Nativo</p>
+                    </div><!-- card -->
+                </div><!-- col-md-4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <p><strong>Inglês:</strong> Intermediário</p>
+                    </div><!-- card -->
+                </div><!-- col-md-4 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <p><strong>Mandarim:</strong> HSK1 & HSK2</p>
+                    </div><!-- card -->
+                </div><!-- col-md-4 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </div><!-- container-idiomas -->
+
+    <footer>
+        <h6>Renée Maria</h6>
+        <div class="end">
+            <p>Desenvolvido por Renée Maria</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    
